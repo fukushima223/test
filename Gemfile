@@ -40,13 +40,13 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 
-  gem 'faker', '~> 1.8', '>= 1.8.4'
-  gem 'factory_bot', '~> 4.8', '>= 4.8.2'
-  gem 'rspec', '~> 3.7'
-  gem 'brakeman', '~> 4.0', '>= 4.0.1'
-  gem 'rubocop', '~> 0.51.0'
-  gem 'rails_best_practices', '~> 1.19'
-  gem 'scss-lint', '~> 0.38.0'
+  gem 'faker'
+  gem 'factory_bot'
+  gem 'rspec'
+  gem 'brakeman'
+  gem 'rubocop'
+  gem 'rails_best_practices'
+  gem 'scss-lint'
 end
 
 group :development do
