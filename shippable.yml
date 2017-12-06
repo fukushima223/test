@@ -8,5 +8,5 @@ build:
     - bundle install
     - bundle exec rubocop
     - bundle exec rails_best_practices
-    - bundle exec scss-lint
+#    - bundle exec scss-lint
     - bundle exec brakeman
